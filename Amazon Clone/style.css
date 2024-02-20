@@ -1,0 +1,521 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+/** Nav Bar **/
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    flex-direction: right;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(res/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 103%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+     border: 1.5px solid white;
+     border-top-left-radius: 4px;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+     border-bottom-left-radius: 4px;
+  }
+
+/** address box 2 **/
+
+.ad-first{
+    color: #ccc;
+    font-size: 0.85rem;
+    padding-top: 8px;
+    padding-left: 27px;
+}
+
+.ad-second{
+   font-size: 1rem;
+   padding-left: 3px;
+}
+
+.add-icon{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-left: 8px;
+}
+
+.nav-address{
+height: 50px;
+width: 100px;
+}
+
+/** nav- search box - 3 **/
+
+.nav-search{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 850px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   background-color: #f3f3f3;
+   border: none;
+ 
+}
+
+.search-input{
+width: 100%;
+border: none;
+font-size: 1rem;
+}
+
+.search-button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 49px;
+    background-color: rgb(255,190,92);
+    border: none;
+    font-size: 1.2rem;
+}
+
+/** Nav-Language box-4 **/
+
+.nav-language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 50px;
+}
+
+.language-select{
+    margin-left: 2px;
+    height: 25px;
+    width: 50px;
+    background-color: #0F1111;
+    color: white;
+}
+
+/** Nav-Language box-5 **/
+
+span{
+    font-size: 0.85rem;
+}
+
+.nav-sign{
+height: 50px;
+width: 130px; 
+display: flex;  
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.signin-orders{
+font-size: 0.87rem;
+font-weight: 800;
+}
+
+.nav-return{
+    height: 50px;
+    width: 110px; 
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.return-orders{
+    font-size: 0.87rem;
+font-weight: 800;
+}
+
+/** nav-cart box 6 **/
+
+.nav-cart{
+    height: 50px;
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-cart i{
+    font-size: 31px;
+}
+
+.cart{
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+
+
+
+
+/** 2nd Line - All - 1 **/
+
+
+
+.nav-2{
+    height: 43px;
+    width: 100%vw;
+    background-color: #232F3E;
+    display: flex;
+}
+
+.nav-all{
+    width: 58px;
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+.all{
+    padding-left: 7px;
+    font-size: 0.87rem;
+    font-weight: 800;
+}
+
+
+/** Nav- All - 2 **/
+
+.nav-anchor{
+    width: 900px;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #232F3E;
+    color: white;
+    font-size: 0.87rem;
+}
+
+.aflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 39px;
+    font-size: 0.77rem;
+    font-weight: 400;
+}
+
+.nav-new{
+     height: 39px;
+     width: 35%;
+     display: flex;
+     flex-direction: row;
+     justify-content: right;
+     align-items: center;
+     color: white;
+     font-size: 0.81rem;
+     margin-right: 10px;
+}
+
+/** nav - Hero **/
+
+.nav-hero{
+    height: 320px;
+    background-image: url(res/hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-intro{
+    background-color: white;
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.intro{
+    font-size: 0.76rem;
+}
+
+/** boxes-line **/
+
+.box-line1{
+ height: 450px;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+  justify-content:space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box{
+    background-color: white;
+    width: 335px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-x{
+    background-color: #e2e7e6;
+    flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.box4{
+    width: 335px;
+    height: 155px;
+    background-color: white;
+}
+
+.box5{
+    width: 300px;
+    height: 240px;
+    background-color: white;
+}
+
+.xbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box1-i{
+    height: 330px;
+    width: 300px;
+    background-image: url(res/box1_image.jpg);
+    background-size: cover;
+}
+
+.box2-i{
+    height: 330px;
+    width: 300px;
+    background-image: url(res/box2_image.jpg);
+    background-size: cover;
+
+}
+
+.box3-i{
+    height: 330px;
+    width: 300px;
+    background-image: url(res/box4_image.jpg);
+    background-size: cover;
+}
+
+.box4{
+    color: white;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 700;
+    background-image: url(res/box3_image.jpg);
+    background-size: cover;
+}
+
+.box5{
+    background-image: url(res/laptop.jpg);
+    background-size: cover;
+}
+
+.b{
+   text-decoration: none;
+   color: #007185;
+   padding: 20px;
+   font-size: 0.75rem;
+}
+
+.theboys{
+    background-size: cover;
+    width: 700px;
+    height: 420px;
+}
+
+/** footer **/
+
+.top{
+    width: 100%;
+    height: 49px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-back{
+    text-decoration: none;
+    color: white;
+    font-size: 0.86rem;
+}
+
+
+.footer-links{
+   background-color: #222f3d;
+   color: white;
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flinks{
+    height: 236px;
+    width:  160px;
+}
+
+.fhead{
+    font-size: 1.2rem;
+    font-weight: 800;
+    height: 28px;
+}
+
+.lists{
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.fa{
+text-decoration: none;
+color: #ddd;
+font-size: 0.67rem;
+font-weight: 700;
+margin-top: 8px;
+margin-bottom: 8px;;
+}
+
+.flinks-b{
+    width: 90px;
+}
+
+.flinks-3{
+  width: 160px
+}
+
+.flinks-5{
+  width: 230px;
+}
+
+.flinks-7{
+   width: 200px
+}
+
+/** logo end **/
+.logoend{
+    background-color: #222f3d;
+    height: 120px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2{
+    background-image: url(res/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 110px;
+}
+
+.blank{
+    width: 40px;
+}
+
+.globe{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+
+.globe-lan{
+    margin-left: 7px;
+    font-size: 0.77rem;
+    margin-right: 23px;
+}
+
+.globe i{
+ font-size: 0.77rem;
+}
+
+/** footer end **/
+
+.footerend{
+    background-color: #0F1111;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fea{
+    text-decoration: none;
+    color: #ddd;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 0.77rem;
+}
+
+.copyright{
+ height: 3px;
+}
+
+.copyp{
+    color: #ddd;
+    font-size: 0.77rem;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+
+.box:hover{
+    z-index: 100;
+ animation: scale 0.7s ease-in-out;
+}
